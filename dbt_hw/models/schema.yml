@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: dells
+    database: dellstore
+    schema: public
+    tables:
+      - name: products
+      - name: firstnames
+      - name: orders
+      - name: customers
+      - name: lostamounts
